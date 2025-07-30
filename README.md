@@ -8,7 +8,7 @@ A minimalist raytracer in C powered by MLX42. It parses `.rt` scene files and re
 
 This is a stripped-down raytracer implementing the mandatory part of the miniRT project from the 42 Network. It reads a scene description (`.rt`), builds basic geometric objects (plane, sphere, cylinder), and displays the result in an adjustable MLX42 window. The project demonstrates low-level graphics, vector math, file parsing in C, and following the 42 Norm C coding standard.
 
-Made with @jackwaddington on his repo: https://github.com/jackwaddington/minirt
+Made with [@jackwaddington](https://github.com/jackwaddington) on his repo: https://github.com/jackwaddington/minirt
 
 ## Features
 
