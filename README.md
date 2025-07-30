@@ -55,17 +55,24 @@ Each line defines one element, in any order. Elements with single identifiers (`
 * **Plane:**  `pl <point> <normal>   <R,G,B>`
 * **Cylinder:** `cy <center> <axis> <diameter> <height> <R,G,B>`
 
-*Example:* `scenes/8.rt`
+*Example:* `scenes/3_inside_objects.rt`
 
 ```text
-A 0.3 255,255,255
-C 0,0,50 0,0,-1 60
-L 0,0,20 1.0 255,255,255
-sp 0,0,0 10 255,0,0
-sp 20,0,0 10 0,255,0
-cy 0,0,-10 0,1,0 10 20 0,0,255
-cy -20,0,-10 0,1,0 10 20 255,255,0
-pl 0,0,-30 0,1,0 0,0,255
+C 0,6,-5  0,-0.6,0.8  110  
+L 0,4,0 0.7 255,255,255
+A 0.5 255,255,255
+# cylinders
+cy 4,1,4  0,0.6,-0.8  2  2  255,0,0
+cy 0,2,6   0.6,0,-0.8  2  3  0,0,255
+cy 0,0,-6  0,0,1  15  12  0,255,0
+cy 0,-2,5  0,0.6,0.8  2  2.5  0,255,127
+cy -4,-3,3  0,0.6,-0.8  2  3  255,127,255
+# spheres
+sp 0,0,0 2 255,255,0
+sp 0,-1,0 1 255,0,0
+sp 0,2,2 1 255,0,127
+# planes
+pl 0,-5,5    0,-1,0   66,135,245
 ```
 
 
