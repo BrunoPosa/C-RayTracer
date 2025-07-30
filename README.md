@@ -53,7 +53,7 @@ Each line defines one element, in any order. Elements with single identifiers (`
 * **Light:**  `L <pos> <brightness> <R,G,B>`
 * **Sphere:** `sp <center> <diameter> <R,G,B>`
 * **Plane:**  `pl <point> <normal>   <R,G,B>`
-* **Cylinder:** `cy <center> <axis> <diameter> <height> <R,G,B>`
+* **Cylinder:** `cy <base center> <axis> <diameter> <height> <R,G,B>`
 
 *Example:* `scenes/3_inside_objects.rt`
 
