@@ -1,6 +1,6 @@
 # C-RayTracer [miniRT]
 
-A minimalist raytracer in C powered by MLX42. It parses `.rt` scene files and renders simple 3D scenes with ambient and diffuse lighting in real time.
+A minimalist raytracer in C powered by MLX42. It parses `.rt` scene files and renders simple 3D scenes with ambient and diffuse lighting.
 
 ---
 
