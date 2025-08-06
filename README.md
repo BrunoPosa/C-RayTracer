@@ -21,9 +21,9 @@ Made with [@jackwaddington](https://github.com/jackwaddington) on his repo: http
 
 ## Prerequisites
 
-* C compiler (gcc)
+* Linux
+* C compiler (gcc/clang)
 * GNU make
-* Standard C libraries and math library
 
 ## Installation
 
